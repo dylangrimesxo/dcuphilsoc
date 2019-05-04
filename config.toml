@@ -10,6 +10,15 @@ Paginate = 3 # this is set low for demonstrating with dummy content. Set to a hi
 googleAnalytics = ""
 enableRobotsTXT = true
 
+[[menu.main]]
+    name = "About"
+    identifier = "about"
+    url = "/about/"
+
+    name = "Aritices"
+    identifier = 'post"
+    url = "/post/"
+
 [sitemap]
   changefreq = "monthly"
   priority = 0.5
