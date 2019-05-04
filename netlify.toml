@@ -1,7 +1,7 @@
 [build]
   command = "hugo --themesDir ../../"
-  base    = "website"
-  publish = "website/public"
+  base    = "philsocsite"
+  publish = "philsocsite/public"
 
 [build.environment]
   HUGO_THEME = "repo"
