@@ -31,34 +31,22 @@ enableRobotsTXT = true
   featured_image = "/images/gohugo-default-sample-hero-image.jpg"
   recent_posts_number = 2
 
-[menu]
-
-  [[menu.main]]
-    name = "Home"
+[[menu.main]]
+    name = "Homepage"
+    weight = 1
     url = "/"
-    weight = 10
 
-  [[menu.main]]
+[[menu.main]]
     name = "About"
-    url = "/about"
-    weight = 20
+    weight = 2
+    url = "/about/"
 
-  [[menu.main]]
+[[menu.main]]
     name = "Blog"
-    url = "/posts"
-    weight = 30
+    weight = 3
+    url = "/post/"
 
-  [[menu.main]]
+[[menu.main]]
     name = "Contact"
-    url = "/contact"
-    weight = 40
-
-  # [[menu.main]]
-  # name = "About"
-  # url = "/about"
-  # weight = 20
-
-  # [[menu.main]]
-  # name = "Tutorials"
-  # url = "/tutorial/"
-  # weight = 50
+    weight = 4
+    url = "/contact/"
