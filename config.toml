@@ -2,6 +2,7 @@ title = "Notre-Dame de Paris"
 baseurl = "https://inspiring-kare-8ab2f2.netlify.com/"
 languageCode = "en-us"
 theme = "gohugo-theme-ananke"
+themesDir = "../.."
 
 MetaDataFormat = "yaml"
 DefaultContentLanguage = "en"
